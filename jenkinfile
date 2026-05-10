@@ -20,7 +20,7 @@ pipelinpipeline {
             steps {
 
                 git branch: 'main',
-                url: 'https://github.com/YOUR_USERNAME/YOUR_REPO.git'
+                url: 'https://github.com/rohitkolekar840-a11y/JENKINS-JAVA.git'
             }
         }
 
@@ -80,7 +80,7 @@ pipelinpipeline {
         }
 
         failure {
-            echo 'Deployment failed'
+            echo 'Deployment failed !'
         }
 
         always {
