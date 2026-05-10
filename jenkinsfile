@@ -39,7 +39,7 @@ pipelinpipeline {
 
                 sh """
 
-                echo "Stopping old application if running..."
+                echo "Stopping old application if running...."
 
                 pkill -f '${JAR_NAME}' || true
 
